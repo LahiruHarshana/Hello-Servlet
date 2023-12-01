@@ -15,8 +15,5 @@ public class HelloServlet extends HttpServlet {
         resp.getWriter().println("<h1>Hello Servlet</h1>");
     }
 
-    @Override
-    public ServletConfig getServletConfig() {
-        return super.getServletConfig();
-    }
+    ServletConfig config = null;
 }
