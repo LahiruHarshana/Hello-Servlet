@@ -15,5 +15,6 @@ public class HelloServlet extends HttpServlet {
         resp.getWriter().println("<h1>Hello Servlet</h1>");
     }
 
-    ServletConfig config = null;
+    ServletConfig config = getServletConfig();
+    String city = config.getInitParameter("city");
 }
