@@ -13,6 +13,20 @@
         </init-param>
     </servlet>
 
+    <servlet>
+        <servlet-name>MyServlet2</servlet-name>
+        <servlet-class>lk.ijse.GDSE66.HELLO.API.MyServlet2</servlet-class>
+        <init-param>
+            <param-name>city</param-name>
+            <param-value>matara</param-value>
+        </init-param>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>MyServlet2</servlet-name>
+        <url-pattern>//</url-pattern>
+    </servlet-mapping>
+
     <servlet-mapping>
         <servlet-name>HelloServlet</servlet-name>
         <url-pattern>/</url-pattern>
