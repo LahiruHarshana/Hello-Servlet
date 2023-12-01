@@ -9,7 +9,7 @@
         <servlet-class>lk.ijse.GDSE66.HELLO.API.HelloServlet</servlet-class>
         <init-param>
             <param-name>city</param-name>
-            <param-value></param-value>
+            <param-value>galle</param-value>
         </init-param>
     </servlet>
 
