@@ -6,11 +6,11 @@
     
     <servlet>
         <servlet-name>HelloServlet</servlet-name>
-        <servlet-class>lk.ijse.gdse66.AAD.helloservlet.HelloServlet</servlet-class>
+        <servlet-class>lk.ijse.GDSE66.HELLO.API.HelloServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
         <servlet-name>HelloServlet</servlet-name>
-        <url-pattern>/</url-pattern>
+        <url-pattern>/helloServlet</url-pattern>
     </servlet-mapping>
 </web-app>
