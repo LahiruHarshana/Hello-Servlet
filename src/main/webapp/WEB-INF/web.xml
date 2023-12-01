@@ -6,5 +6,6 @@
     
     <servlet>
         <servlet-name>HelloServlet</servlet-name>
+        <servlet-class>lk.ijse.gdse66.AAD.helloservlet.HelloServlet</servlet-class>
     </servlet>
 </web-app>

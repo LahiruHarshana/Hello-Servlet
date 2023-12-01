@@ -1,4 +1,4 @@
-package com.example.helloservlet;
+package lk.ijse.gdse66.AAD.helloservlet;
 
 import java.io.*;
 
