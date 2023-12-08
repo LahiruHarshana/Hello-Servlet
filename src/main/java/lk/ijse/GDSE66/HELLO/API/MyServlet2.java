@@ -15,5 +15,6 @@ public class MyServlet2 extends HttpServlet {
         String city = sc.getInitParameter("city");
         System.out.println(city);
 
+
     }
 }
