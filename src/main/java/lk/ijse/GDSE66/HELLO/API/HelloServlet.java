@@ -19,7 +19,7 @@ public class HelloServlet extends HttpServlet {
 //        System.out.println(city);
 
         ServletContext context = getServletContext();
-        String username = context.getInitParameter("username");
+        String username = context.getInitParameter("userName");
         System.out.println(username);
     }
 
