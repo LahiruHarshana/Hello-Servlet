@@ -35,6 +35,6 @@
     
     <context-param>
         <param-name>userName</param-name>
-        <param-value></param-value>
+        <param-value>Lahiru</param-value>
     </context-param>
 </web-app>
